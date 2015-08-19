@@ -26,7 +26,7 @@ and open the template in the editor.
             $direccion = trim($direccion);
             $direccion = str_replace(' ', '%20', $direccion);
             
-            $contenido = file_get_contents("http://api-adresse.data.gouv.fr/search/?q=$direccion&autocomplete=0'");
+            $contenido = file_get_contents("http://api-adresse.data.gouv.fr/search/?q=$direccion&autocomplete=0&limit=15");
         }else{
             $contenido = file_get_contents("http://api-adresse.data.gouv.fr/search/?q=8%20bd%20du%20port&postcode=44380");
         }
