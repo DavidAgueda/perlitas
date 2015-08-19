@@ -16,6 +16,9 @@ and open the template in the editor.
         ?>
         <ul>
             <li><a href="juego/index.php">juego</a></li>
+            <li><a href="PHP//index.php">pasar caracteres como ALT+ENTER a Utf8</a></li>
+            <li><a href="PHPbarra/index.html">pasar caracteres como ALT+ENTER a Utf8</a></li>
+            <li><a href="GeoLoc/index.php">GeoLoc</a></li>
         </ul>
     </body>
 </html>
